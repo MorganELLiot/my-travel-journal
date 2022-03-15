@@ -44,7 +44,7 @@
 }
 
 .card {
-  height: 170px;
+  min-height: 170px;
   display: flex;
   padding: 20px;
 }

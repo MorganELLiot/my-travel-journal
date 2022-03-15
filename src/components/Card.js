@@ -4,10 +4,10 @@ export default function Card(props) {
     return (
         <div className="card">
             <div className="card--img-cont">
-                <img className="card--img" src={props.image} />
+                <img className="card--img" src={props.image} alt="Photo of Place" />
             </div>
             <div className="card--info">
-                <img className="card--pin" src={pin}/>
+                <img className="card--pin" src={pin} alt="Location icon" />
                 <span className="card--country">{props.country}</span>
                 <span className="grey underline">View on Google Maps</span>
                 <h1 className="card--title bold">{props.title}</h1>
