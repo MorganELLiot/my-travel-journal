@@ -8,10 +8,10 @@ export default function Card(props) {
             </div>
             <div className="card--info">
                 <img className="card--pin" src={pin}/>
-                <span>{props.country}</span>
+                <span className="card--country">{props.country}</span>
                 <span className="grey underline">View on Google Maps</span>
-                <h1 className="bold">{props.title}</h1>
-                <span className="bold">{props.startDate}</span>
+                <h1 className="card--title bold">{props.title}</h1>
+                <span className="bold">{props.startDate}{props.endDate !== "" && props.endDate}</span>
                 <p>{props.discription}</p>
             </div>
         </div>

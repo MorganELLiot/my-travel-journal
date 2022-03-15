@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="nav">
             <img className="nav--logo" src={globe} />
-            <h1 className="nav--title">My Travel Journal</h1>
+            <h1 className="nav--title">my travel journal.</h1>
         </nav>
     )
 }
