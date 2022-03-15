@@ -3,9 +3,9 @@ export default [
     {
         id: 2,
         title: "Tainan City",
-        country: "Taiwan",
+        country: "TAIWAN",
         startDate: "Mar 5, 2022",
-        endDate: "Mar 6, 2022",
+        endDate: " - Mar 6, 2022",
         discription: "Tainan, former capital city of Taiwan and hub of venerable architecture from various stages of colonial history, boasts chill vibes, sunny skies and good food. What's more, it lies a mere high speed train enabled stones throw away from Taipei!",
         mapsLink: "https://www.google.com.tw/maps/place/Tainan+City/@23.1503761,120.0618223,10z/data=!3m1!4b1!4m5!3m4!1s0x346e7ccc953ffe13:0xd47f4caaa5dc764e!8m2!3d22.9998999!4d120.2268758",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hayashi_Department_Store_%28night%29.jpg/1280px-Hayashi_Department_Store_%28night%29.jpg"
@@ -13,7 +13,7 @@ export default [
     {
         id: 1,
         title: "Taroko Gorge",
-        country: "Taiwan",
+        country: "TAIWAN",
         startDate: "Feb 6, 2022",
         endDate: "",
         discription: "Taroko Gorge, a river-carved gash in the dramatic mountainscape, home to one of the world's most spectacular roads. A truly stunning place, you won't want to miss it when in Taiwan.",
